@@ -41,7 +41,7 @@ ul a:hover
 /* header finish*/
 .slider
 {
-    background-image: url('/final/assets/images/p1.jpg');
+    background-image: url(' /assets/images/p1.jpg');
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -1590,7 +1590,7 @@ div.arrow div:nth-child(2) i.fa-arrow-right:hover
 /*deal page*/
 .image
 {
-    background-image: url('/final/assets/images/p1.jpg');
+    background-image: url(' /assets/images/p1.jpg');
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
