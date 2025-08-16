@@ -1,0 +1,2970 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header
+{
+    background-color:rgb(60, 160, 160);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 5027px;
+    height: 300px;
+
+}
+.logo
+{
+    padding-top: 39px;
+    padding-left: 300px;
+}
+ul   
+{
+    font-size: 100px;
+    display: flex;
+    list-style-type: none;
+    padding-top: 80px;
+    
+}
+ul a
+{
+    padding-right: 200px;
+    color: white;
+
+}
+ul a:hover
+{
+    color: rgb(204, 201, 201);
+}
+/* header finish*/
+.slider
+{
+    background-image: url('/final/assets/images/p1.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+section.slider article aside
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+section.slider article aside p
+{
+    font-size: 90px;
+    text-align: center;
+    padding-top: 650px;
+    
+}
+section.slider article aside h1
+{
+    font-size: 160px;
+    text-align: center;
+    padding: 50px;
+    
+}
+section.slider article aside h6
+{
+    padding-top: 200px;
+}
+
+section.slider article aside a
+{
+    font-size: 80px;
+    text-align: center;
+    border: 7px solid rgb(65, 187, 187);
+    border-radius: 80px;
+    color: rgb(65, 187, 187);
+    padding: 30px 40px 30px 40px;
+  
+}
+section.slider article aside:nth-child(1) a:hover
+{
+    color: rgb(65, 187, 187);
+    background-color: white;
+    transition: 1200ms;
+}
+section.slider article aside:nth-child(2)
+{
+    background-color: white;
+    height: 500px;
+    width: 3800px;
+    margin-top: 250px;
+    margin-left: 600px;
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+section.slider article aside:nth-child(2) div.box1 
+{
+    font-size: 100px;
+    text-align: end;
+    padding-top: 90px;
+    color: rgb(65, 187, 187);
+    
+}
+.fa-user
+{
+    border: 6px solid rgb(65, 187, 187);
+    border-radius: 100%;
+    padding: 40px;
+
+}
+section.slider article aside:nth-child(2) div.box2 
+{
+    font-size: 100px;
+    color: rgb(65, 187, 187);
+    text-align: end;
+    padding-top: 90px;
+
+    
+}
+.fa-globe
+{
+    border: 6px solid rgb(65, 187, 187);
+    border-radius: 100%;
+    padding: 40px;
+
+}
+section.slider article aside:nth-child(2) div.box3 
+{
+    font-size: 100px;
+    color: rgb(65, 187, 187);
+    text-align: end;
+    padding-top: 90px;
+}
+.fa-house
+{
+    border: 6px solid rgb(65, 187, 187);
+    border-radius: 100%;
+    padding: 40px; 
+
+}
+section.slider article aside:nth-child(2) div.box4
+{
+    padding-top: 200px;
+    
+} 
+section.slider article aside:nth-child(2) div.box4 a
+{
+    background-color: rgb(65, 187, 187);
+    color: white;
+}
+section.slider article aside:nth-child(2) div.box4 a:hover
+{
+    background-color: rgb(107, 194, 194);
+}
+
+
+
+
+/*main body part 1 finish*/
+
+.visit
+{
+    height: 5000px;
+    background-color: rgb(35, 34, 35);
+    
+}
+
+.visit div:nth-child(2)
+{
+    width: 2500px;
+   
+}
+.visit div:nth-child(2) p
+{
+    font-size: 90px;
+    padding-left: 300px;
+    padding-top: 60px;
+
+}
+.visit aside:nth-child(2)
+{
+    height: 4500px;
+    background-color: rgb(35, 34, 35);
+    margin-top: 400px;
+    font-size: 500px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 300px;
+}
+.visit aside:nth-child(2) section:nth-child(1)
+{
+    height: 3500px;
+    background-color: rgb(35, 34, 35);
+
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1
+{
+    height: 1100px;
+    background-color: rgb(35, 34, 35);
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    gap: 10px;
+    width: 2950px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-1 
+{
+    background-color: rgb(35, 34, 35);
+     border-radius: 60px;
+    height: 200px;
+    width: 200px;
+    margin-top: 46px;
+   
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-1 img
+{
+     border-radius: 60px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2
+{
+    background-color: rgb(35, 34, 35);
+    font-size: 40px;
+    height: 1100px;
+    width: 1850px;
+    display: grid;
+    grid-template-rows: 1.5fr 2fr 1.5fr 1.5fr;
+    gap: 20px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-1
+{
+    background-color: rgb(35, 34, 35);
+    width: 1850px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-1-1
+{
+    background-color: rgb(35, 34, 35);
+    width: 3500px;
+    height: 250px;
+    font-size: 130px;
+    color: whitesmoke;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-1-2
+{
+    background-color: rgb(93, 133, 203);
+    width: 1500px;
+    height: 250px;
+    border: 9px solid rgb(83, 65, 187);
+    padding-top: 70px;
+    padding-left: 70px;
+    background-color: rgb(65, 187, 187);
+    border-radius: 80px;
+    border-color: rgb(65, 187, 187);
+   
+    
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-1-2 a
+{
+    font-size: 80px;
+    color: white;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-1-2:hover
+{
+    background-color: rgb(51, 146, 146);
+}
+
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-2 p
+{
+    font-size: 70px;
+    color: rgb(206, 204, 204);
+    padding-left: 0px;
+    width: 1800px;
+    
+    
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-3 
+{
+    font-size: 70px;
+    color:rgb(206, 204, 204);
+    padding-left: 0px;
+    width: 1800px;
+    border-color: white;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-3 i.fa-user
+{
+    border: none;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-3 i.fa-globe
+{
+    border: none;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-3 i.fa-house
+{
+    border: none;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-4 
+{
+    font-size: 70px;
+    
+    padding-left: 0px;
+    padding-top: 50px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit1 div.visit1-2 div.visit1-2-4 a 
+{
+
+    color: rgb(65, 187, 187);
+    
+}
+
+/*1st photo finish*/
+
+.visit div:nth-child(1)
+{
+    
+    width: 2400px;
+    
+    
+}
+.visit div:nth-child(1) h1
+{
+    font-size: 160px;
+    padding-top: 280px;
+    padding-left: 300px;
+    color: rgb(81, 79, 79);
+
+}
+.visit div:nth-child(2)
+{
+    width: 2500px;
+   
+}
+.visit div:nth-child(2) p
+{
+    font-size: 90px;
+    padding-left: 300px;
+    padding-top: 60px;
+    color: rgb(217, 215, 215);
+
+}
+.visit aside:nth-child(2)
+{
+    height: 4500px;
+    background-color:rgb(35, 34, 35);
+    margin-top: 400px;
+    font-size: 500px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 300px;
+}
+.visit aside:nth-child(2) section:nth-child(1)
+{
+    height: 3500px;
+    background-color: rgb(35, 34, 35);
+
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2
+{
+    height: 1100px;
+    background-color: rgb(35, 34, 35);
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    gap: 10px;
+    width: 2950px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-1 
+{
+    background-color: rgb(35, 34, 35);
+     border-radius: 60px;
+    height: 200px;
+    width: 200px;
+    margin-top: 46px;
+   
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-1 img
+{
+     border-radius: 60px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2
+{
+    background-color:rgb(35, 34, 35);
+    font-size: 40px;
+    height: 1100px;
+    width: 1850px;
+    display: grid;
+    grid-template-rows: 1.5fr 2fr 1.5fr 1.5fr;
+    gap: 20px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-1
+{
+    background-color: rgb(35, 34, 35);
+    width: 1850px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-1-1
+{
+    background-color: rgb(35, 34, 35);
+    width: 3500px;
+    height: 250px;
+    font-size: 130px;
+    color: whitesmoke;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-1-2
+{
+    background-color: rgb(93, 133, 203);
+    width: 1500px;
+    height: 250px;
+    border: 9px solid rgb(83, 65, 187);
+    padding-top: 70px;
+    padding-left: 70px;
+    background-color: rgb(65, 187, 187);
+    border-radius: 80px;
+    border-color: rgb(65, 187, 187);
+   
+    
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-1-2 a
+{
+    font-size: 80px;
+    color: white;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-1-2:hover
+{
+    background-color: rgb(51, 146, 146);
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-2 p
+{
+    font-size: 70px;
+    color:rgb(206, 204, 204);
+    padding-left: 0px;
+    width: 1800px;
+    
+    
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-3 
+{
+    font-size: 70px;
+    color: rgb(206, 204, 204);
+    padding-left: 0px;
+    width: 1800px;
+    border-color: white;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-3 i.fa-user
+{
+    border: none;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-3 i.fa-globe
+{
+    border: none;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-3 i.fa-house
+{
+    border: none;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-4 
+{
+    font-size: 70px;
+    color: white;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2 div.visit2-2-4 a 
+{
+
+    color: rgb(65, 187, 187);
+    
+}
+/* 2nd photo finish*/
+.visit div:nth-child(2)
+{
+    width: 2500px;
+   
+}
+.visit div:nth-child(2) p
+{
+    font-size: 90px;
+    padding-left: 300px;
+    padding-top: 60px;
+
+}
+.visit aside:nth-child(2)
+{
+    height: 4500px;
+    background-color:rgb(35, 34, 35);
+    margin-top: 400px;
+    font-size: 500px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 300px;
+}
+.visit aside:nth-child(2) section:nth-child(1)
+{
+    height: 3500px;
+    background-color:rgb(35, 34, 35);
+
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3
+{
+    height: 1100px;
+    background-color: rgb(35, 34, 35);
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    gap: 10px;
+    width: 2950px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-1 
+{
+    background-color:rgb(35, 34, 35);
+     border-radius: 60px;
+    height: 200px;
+    width: 200px;
+    margin-top: 46px;
+   
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-1 img
+{
+     border-radius: 60px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2
+{
+    background-color: rgb(35, 34, 35);
+    font-size: 40px;
+    height: 1100px;
+    width: 1850px;
+    display: grid;
+    grid-template-rows: 1.5fr 2fr 1.5fr 1.5fr;
+    gap: 20px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-1
+{
+    background-color: rgb(35, 34, 35);
+    width: 1850px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-1-1
+{
+    background-color: rgb(35, 34, 35);
+    width: 3500px;
+    height: 250px;
+    font-size: 130px;
+    color: whitesmoke;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-1-2
+{
+    background-color: rgb(93, 133, 203);
+    width: 1500px;
+    height: 250px;
+    border: 9px solid rgb(83, 65, 187);
+    padding-top: 70px;
+    padding-left: 70px;
+    background-color: rgb(65, 187, 187);
+    border-radius: 80px;
+    border-color: rgb(65, 187, 187);
+   
+    
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-1-2 a
+{
+    font-size: 80px;
+    color: white;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-1-2:hover
+{
+    background-color: rgb(51, 146, 146);
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-2 p
+{
+    font-size: 70px;
+    color:rgb(206, 204, 204);
+    padding-left: 0px;
+    width: 1800px;
+    
+    
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-2 p a
+{
+    
+    color:rgb(65, 187, 187);
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-2 p a:hover
+{
+    
+    color:rgb(28, 90, 215);
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-3 
+{
+    font-size: 70px;
+    color: rgb(206, 204, 204);
+    padding-left: 0px;
+    width: 1800px;
+    border-color: white;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-3 i.fa-user
+{
+    border: none;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-3 i.fa-globe
+{
+    border: none;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-3 i.fa-house
+{
+    border: none;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-4 
+{
+    font-size: 70px;
+    color: white;
+    padding-left: 0px;
+    padding-top: 50px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2 div.visit3-2-4 a 
+{
+
+    color: rgb(65, 187, 187);
+    
+}
+
+
+
+
+
+/*.visit aside:nth-child(2) section:nth-child(1) div.visit2
+{
+    height: 1100px;
+    background-color: rgb(226, 144, 43);
+    margin-left: 200px;
+    width: 2950px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    gap: 10px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-1
+{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-1 img
+{
+    border-radius: 60px;
+    margin-top: 46px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit2 div.visit2-2
+{
+    background-color: brown;
+    height: 800px;
+    width: 1500px;
+    font-size: 50px;
+    
+}
+
+
+
+.visit aside:nth-child(2) section:nth-child(1) div.visit3
+{
+    height: 1100px;
+    background-color: rgb(43, 226, 49);
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 2950px;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    gap: 10px;
+
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-1
+{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-1 img
+{
+    border-radius: 60px;
+    margin-top: 46px;
+}
+.visit aside:nth-child(2) section:nth-child(1) div.visit3 div.visit3-2
+{
+    background-color: brown;
+    height: 800px;
+    width: 1500px;
+    font-size: 50px;
+}*/
+
+
+
+
+
+
+.visit aside:nth-child(2) section:nth-child(2) iframe
+{
+    height: 2200px;
+    width: 1370PX;
+    border-radius: 70PX;    
+    background-color: rgb(35, 34, 35);
+}
+
+
+
+.footer1
+{
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+    background-color:rgb(65, 187, 187);
+    height: 900px;
+    color: white;
+    column-gap: 1200px;
+    
+}
+.footer1 div h1
+{
+    font-size: 150px;
+    width: 3000px;
+    padding-top: 320px;
+    padding-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer1 div p
+{
+    font-size: 85px;
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.book
+{
+    padding-top: 400px;
+    padding-right: 110px;
+}
+.book a:hover
+{
+    color: rgb(60, 160, 160);
+    background-color: white;
+    transition: 1500ms;
+}
+.footer1 div a
+{
+    font-size: 90px;
+    color: white;
+    margin-top: 400px;
+    border: 4px solid white;
+    border-radius: 80px;
+    padding: 30px 40px 30px 40px;    
+}
+.footer2
+{
+    height: 400px;
+    background-color: rgb(60, 160, 160);
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    padding-top: 120px;
+}
+.footer2 a
+{
+    color: white;
+}
+.footer a:hover
+{
+    color: rgb(65, 187, 187);
+    
+    
+}
+/* footer finish*/
+
+
+
+/* about page */
+.menu{
+     position: relative;
+}
+.mainbox
+{
+    margin-top: 400px;
+    margin-left: 400px;
+    margin-bottom: 600px;
+    color: white;
+    align-items: center;
+    text-align: center;
+   
+}
+.blurbox
+{
+    height: 2300px;
+    width: 4200px;
+    background-color: rgba(203, 215, 215, 0.105);
+    backdrop-filter: blur(25px) ;
+    filter: brightness(90%);
+}
+.content
+{
+    
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content h6
+{
+    font-size: 90px;
+    padding-top: 300px;
+
+}
+
+.content h1
+{
+    padding-top: 40px;
+    font-size: 280px;
+}
+.line
+{
+    border: 1px solid rgb(190, 190, 190);
+    width: 400px;
+    margin-left: 1900px;
+}
+.content p
+{
+    font-size: 80px;
+    width: 3100px;
+    margin-left: 600px;
+    padding-top: 100px;
+}
+.content a
+{
+    font-size: 70px;
+    background-color: white;
+    color: rgb(65, 187, 187);
+    border: 0.1px solid white;
+    width: 600px;
+    margin-left: 1830px;
+    margin-top: 150px;
+    border-radius: 80px;
+    padding: 30px 60px 30px 60px;
+}
+.content a:hover
+{
+    background-color: rgb(246, 243, 238);
+}
+div.aboutcity
+{
+    background-color: rgb(35, 34, 35);
+    height: 1700px;
+   
+}
+div.aboutcity section:nth-child(1).cities-town
+{
+    background-color: white;
+    height: 1600px;
+    width: 4500px;
+    position: absolute;
+    top: 3350px;
+    margin-left: 270px;
+    border-radius: 50px;
+    overflow: hidden;
+   
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(1).writting
+{
+   height: 500px;  
+   color: black;
+   font-size: 130px;
+   padding-top: 180px;
+   padding-left: 65px;
+
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(1).writting span
+{
+    color: rgb(65, 187, 187);
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(2).fourimage 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;    
+    margin-left: 75px;
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(2).fourimage div.img1 img
+{
+   
+   height: 900px;
+   width: 1000px;
+   border-radius: 60px;
+   position: relative;
+   
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(2).fourimage div.img1 h5
+{
+    color:white;
+    font-size: 100px;
+    position: absolute;
+    top: 1200px;
+    left: 120px;
+
+    
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(2).fourimage div.img2 img
+{
+   
+   height: 900px;
+   width: 1000px;
+   border-radius: 60px;
+   position: relative;
+   
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(2).fourimage div.img2 h5
+{
+    color:white;
+    font-size: 100px;
+    position: absolute;
+    top: 1200px;
+    left: 1260px;
+    
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(2).fourimage div.img3 img
+{
+   
+   height: 900px;
+   width: 1000px;
+   border-radius: 60px;
+   position: relative;
+   
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(2).fourimage div.img3 h5
+{
+    color:white;
+    font-size: 100px;
+    position: absolute;
+    top: 1200px;
+    left: 2400px;
+    
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(2).fourimage div.img4 img
+{
+   
+   height: 900px;
+   width: 1000px;
+   border-radius: 60px;
+   position: relative;
+ 
+}
+div.aboutcity section:nth-child(1).cities-town div:nth-child(2).fourimage div.img4 h5
+{
+    color:white;
+    font-size: 100px;
+    position: absolute;
+    top: 1200px;
+    left: 3520px;
+    
+}
+div.bestweeklyoffer
+{
+    background-color:rgb(35, 34, 35);
+    height: 500px;
+    text-align: center
+}
+div.bestweeklyoffer h2
+{
+    font-size: 140px;
+    color: rgb(81, 79, 79);
+    
+}
+div.bestweeklyoffer p
+{
+    font-size: 80px;
+    width: 2400px;
+    margin-left: 1300px;
+    padding-top: 50px;
+    color: rgb(164, 160, 160);
+}
+.mixphoto
+{
+    background-color:rgb(35, 34, 35);
+    height: 1600px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.mixphoto-1 img
+{
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    margin-top: 190px;
+    margin-left: 325px;
+
+}
+.mixphoto .whitebox-1
+{
+    background-color: white;
+    height: 1250px;
+    width: 1000px;
+    position: absolute;
+    top: 300px;
+    left: 560px;
+    border-radius: 60px;
+  
+}
+.whitebox1-1
+{
+    display: flex;
+}
+.whitebox1-1-1 h1
+{
+    font-size: 90px;
+    padding-top: 90px;
+    padding-left: 70px;
+}
+.whitebox1-1-1 p
+{
+    font-size: 60px;
+    color: rgb(164, 160, 160);
+    padding-left: 80px;
+    padding-top: 30px;
+    
+}
+.whitebox1-1-2 h1
+{
+    font-size: 100px;
+    padding-top: 90px;
+    padding-left: 130px;
+    color: rgb(65, 187, 187);
+}
+.whitebox1-1-2 p
+{
+    font-size: 60px;
+    color: rgb(164, 160, 160);
+    padding-left: 130px;
+}
+.mixphotoborder-1
+{
+    border: 0.1px solid rgb(229, 224, 224);
+    margin-top: 100px;
+    width: 750px;
+    margin-left: 120px;
+}
+.whitebox1-2
+{
+    color: rgb(164, 160, 160);
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-left: 80px;
+}
+.whitebox1-2 h6
+{
+    font-size: 70px;
+}
+.whitebox1-2 p
+{
+    font-size: 70px;
+}
+.whitebox1-3
+{
+    font-size: 70px;
+    text-decoration: none;
+    margin-top: 120px;
+    margin-left: 135px;
+    
+}
+.whitebox1-3 a
+{
+    color: white;
+    background-color: rgb(65, 187, 187);
+    border-radius: 90px;
+    padding: 50px 80px 50px 80px;
+}
+.whitebox1-3 a:hover
+{
+    background-color: rgb(112, 211, 211);
+}
+/* 1st mixphoto finish */
+.mixphoto-2 img
+{
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    margin-top: 190px;
+    margin-left: 200px;
+
+}
+.mixphoto .whitebox-2
+{
+    background-color: white;
+    height: 1250px;
+    width: 1000px;
+    position: absolute;
+    top: 300px;
+    left: 2120px;
+    border-radius: 60px;
+  
+}
+.whitebox2-1
+{
+    display: flex;
+}
+.whitebox2-1-1 h1
+{
+    font-size: 90px;
+    padding-top: 90px;
+    padding-left: 70px;
+}
+.whitebox2-1-1 p
+{
+    font-size: 60px;
+    color: rgb(164, 160, 160);
+    padding-left: 80px;
+    padding-top: 30px;
+    
+}
+.whitebox2-1-2 h1
+{
+    font-size: 100px;
+    padding-top: 90px;
+    padding-left: 230px;
+    color: rgb(65, 187, 187);
+}
+.whitebox2-1-2 p
+{
+    font-size: 60px;
+    color: rgb(164, 160, 160);
+    padding-left: 230px;
+}
+.mixphotoborder-2
+{
+    border: 0.1px solid rgb(229, 224, 224);
+    margin-top: 100px;
+    width: 750px;
+    margin-left: 120px;
+}
+.whitebox2-2
+{
+    color: rgb(164, 160, 160);
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-left: 80px;
+}
+.whitebox2-2 h6
+{
+    font-size: 70px;
+}
+.whitebox2-2 p
+{
+    font-size: 70px;
+}
+.whitebox2-3
+{
+    font-size: 70px;
+    text-decoration: none;
+    margin-top: 120px;
+    margin-left: 135px;
+    
+}
+.whitebox2-3 a
+{
+    color: white;
+    background-color: rgb(65, 187, 187);
+    border-radius: 90px;
+    padding: 50px 80px 50px 80px;
+}
+.whitebox2-3 a:hover
+{
+    background-color: rgb(112, 211, 211);
+}
+
+/* 2nd mix photo finish */
+.mixphoto-3 img
+{
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    margin-top: 190px;
+    margin-left: 87px;
+
+}
+.mixphoto .whitebox-3
+{
+    background-color: white;
+    height: 1250px;
+    width: 1000px;
+    position: absolute;
+    top: 300px;
+    left: 3690px;
+    border-radius: 60px;
+  
+}
+.whitebox3-1
+{
+    display: flex;
+}
+.whitebox3-1-1 h1
+{
+    font-size: 90px;
+    padding-top: 90px;
+    padding-left: 70px;
+}
+.whitebox3-1-1 p
+{
+    font-size: 60px;
+    color: rgb(164, 160, 160);
+    padding-left: 80px;
+    padding-top: 30px;
+    
+}
+.whitebox3-1-2 h1
+{
+    font-size: 100px;
+    padding-top: 90px;
+    padding-left: 230px;
+    color: rgb(65, 187, 187);
+}
+.whitebox3-1-2 p
+{
+    font-size: 60px;
+    color: rgb(164, 160, 160);
+    padding-left: 230px;
+}
+.mixphotoborder-3
+{
+    border: 0.1px solid rgb(229, 224, 224);
+    margin-top: 100px;
+    width: 750px;
+    margin-left: 120px;
+}
+.whitebox3-2
+{
+    color: rgb(164, 160, 160);
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding-left: 80px;
+}
+.whitebox3-2 h6
+{
+    font-size: 70px;
+}
+.whitebox3-2 p
+{
+    font-size: 70px;
+}
+.whitebox3-3
+{
+    font-size: 70px;
+    text-decoration: none;
+    margin-top: 120px;
+    margin-left: 135px;
+    
+}
+.whitebox3-3 a
+{
+    color: white;
+    background-color: rgb(65, 187, 187);
+    border-radius: 90px;
+    padding: 50px 80px 50px 80px;
+}
+.whitebox3-3 a:hover
+{
+    background-color: rgb(112, 211, 211);
+}
+/* 3rd mix photo finsi */
+
+/* arrow */
+div.arrow
+{
+    background-color: rgb(35, 34, 35);
+    height: 850px;
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+    
+    
+}
+div.arrow div:nth-child(1) i.fa-arrow-left
+{
+    font-size: 150px;
+    color: rgb(65, 187, 187);
+    border: 2px solid rgb(65, 187, 187);
+    border-radius: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+div.arrow div:nth-child(1) i.fa-arrow-left:hover
+{
+    background-color: rgb(65, 187, 187);
+    color: white;
+}
+
+div.arrow div:nth-child(2) i.fa-arrow-right
+{
+    font-size: 150px;
+    color: rgb(65, 187, 187);
+    border: 2px solid rgb(65, 187, 187);
+    border-radius: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 60px;
+}
+div.arrow div:nth-child(2) i.fa-arrow-right:hover
+{
+    background-color: rgb(65, 187, 187);
+    color: white;
+}
+
+
+.mainborder
+{
+    border: 0.1px solid rgb(209, 205, 205);
+    
+}
+.discovermoreaboutcountry
+{
+    background-color: rgb(35, 34, 35);
+    height: 3600px;
+    display: grid;
+    grid-template-columns: 0.57fr 0.6fr;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.leftsidephoto
+{
+    
+    margin-left: 200px;
+    margin-top: 1200px;
+}
+.rightside
+{
+    
+    height: 2600px;
+    width: 2400px;
+    margin-top: 500px;
+}
+.rightside-1 h4
+{
+    font-size: 140px;
+    color: white;
+}
+.rightside-1 p
+{
+    font-size: 80px;
+    padding-top: 50px;
+    color: white;
+    
+}
+.rightside-2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+.rightside2-1
+{
+    background-color: white;
+    height: 450px;
+    width: 1150px;
+    margin-top: 300px;
+    border-radius: 40px;
+    padding-top: 125px;
+    padding-left: 140px;
+}
+.rightside2-1 h3
+{
+    font-size: 100px;
+}
+.rightside2-1 p
+{
+    font-size: 70px;
+    color: rgb(65, 187, 187);
+}
+.rightside2-2
+{
+    background-color: white;
+    height: 450px;
+    width: 1150px;
+    margin-top: 300px;
+    border-radius: 40px; 
+    padding-top: 125px;
+    padding-left: 140px;
+}
+.rightside2-2 h3
+{
+    font-size: 100px;
+}
+.rightside2-2 p
+{
+    font-size: 70px;
+    color: rgb(65, 187, 187);
+}
+.rightside-3
+{
+    height: 450px;
+    width: 2400px;
+    background-color: white;
+    margin-top: 150px;
+    border-radius: 40px;
+    display: flex;
+    padding-top: 125px;
+   
+    
+}
+.rightside3-1 h3
+{
+    font-size: 100px;
+     padding-left: 150px;
+}
+.rightside3-1 p
+{
+    font-size: 70px;
+    color: rgb(65, 187, 187);
+     padding-left: 150px;
+}
+.rightside3-2 h3
+{
+    font-size: 100px;
+     padding-left: 820px;
+}
+.rightside3-2 p
+{
+    font-size: 70px;
+    color: rgb(65, 187, 187);
+    padding-left: 820px;
+}
+.rightside-4
+{
+    font-size: 80px;
+    color: rgb(164, 160, 160);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100PX;
+}
+.rightside-5
+{
+    margin-top: 200px;
+}
+.rightside-5 a
+{
+    background-color: rgb(65, 187, 187);
+    border-radius: 80px;
+    font-size: 70px;
+    padding: 50px 80px 50px 80px;
+    color: white;
+    text-decoration: none;
+}
+.rightside-5 a:hover
+{
+    background-color: rgb(49, 173, 173);
+    transition: 500ms;
+}
+
+/* finsi */
+
+.mainborder2
+{
+    border: 0.1px solid rgb(209, 205, 205);
+    
+}
+
+.bestlocation
+{
+    background-color: rgb(35, 34, 35);
+    height: 1500px;
+    padding-top: 400px;
+    text-align: center;
+    
+}
+.bestlocation h2
+{
+    font-size: 150px;
+    color: rgb(81, 79, 79);
+}
+.bestlocation p
+{
+    font-size: 80px;
+    color: rgb(164, 160, 160);
+    width: 2500px;
+    margin-left: 1230px;
+    margin-top: 60px;
+
+}
+
+/* animation icon start from here */
+
+.animathionicon
+{
+    height: 2800px;
+    background-color:rgb(35, 34, 35);
+    
+}
+
+
+.redline
+{
+    
+    height: 1600px;
+    width: 3300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 100px;
+}
+.redline:hover
+{
+    cursor: pointer;
+}
+.iconpart-1
+{
+    display: flex;
+    gap: 100px;
+    padding-top: 1400px;
+}
+.iconpart-2
+{
+    gap: 100px;
+    padding-top: 1400px;
+}
+.icontext h1
+{
+    font-size: 80px;
+    color: rgb(65, 187, 187);
+    
+}
+.icontext p
+{
+    font-size: 70px;
+    color: rgb(65, 187, 187);
+}
+.iconpart-2
+{
+    display: flex;
+}
+.fa-users-viewfinder
+{
+    border: 4px solid white;
+    border-radius: 90px;
+    padding: 40px 20px;
+    background-color: white;
+    color: rgb(65, 187, 187);
+    
+}
+
+.animathionicon section a
+{
+    font-size: 70px;
+    text-decoration: none;
+    border: 1px solid rgb(65, 187, 187);
+    background-color: rgb(65, 187, 187);
+    border-radius: 90px;
+    padding: 47px 90px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.animathionicon section
+{
+    padding-top: 450px;
+    padding-left: 2180px;
+}
+
+
+
+
+
+
+/*deal page*/
+.image
+{
+    background-image: url('/final/assets/images/p1.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.imagecontant
+{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding-top: 650px;
+}
+.imagecontant h2
+{
+    font-size: 90px;
+
+}
+.imagecontant h1
+{
+    font-size: 220px;
+}
+.imagecontant a
+{
+    font-size: 60px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 100px;
+    padding: 50px 90px 50px 90px;
+    margin-top: 30px;
+}
+.imagecontant a:hover
+{
+    background-color: rgb(65, 187, 187);
+}
+.dropdown
+{
+    background-color:rgba(35,34,35,255);
+    height: 700px;
+    width:100%;
+    position: absolute;
+    top: 2000px;
+}
+.dropdown div.bluecolordrop
+{
+    height: 500px;
+    width: 4500px;
+    background-color: rgb(65, 187, 187);
+    margin: auto;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    display: flex;
+    gap: 140px;
+    padding-top: 130px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dropdown div.bluecolordrop div.dropdown-1
+{
+   
+    height: 100px;
+    width: 600PX;
+    font-size: 40px;
+    margin-top:60PX ;
+   
+
+}
+.dropdown div.bluecolordrop div.dropdown-2
+{
+    
+    height: 200px;
+    width: 1350px;
+    font-size: 80px;
+    padding-left: 50px;
+    border-bottom: 2px solid white;
+    padding-top: 50PX;
+
+}
+.dropdown div.bluecolordrop div.dropdown-2 p
+{
+    display: flex;
+    gap: 750px;
+}
+.dropdown div.bluecolordrop div.dropdown-3
+{
+    
+    height: 200px;
+    width: 1350px;
+    font-size: 80px;
+    padding-left: 50px;
+    padding-top: 50PX;
+    border-bottom: 2px solid white;
+
+}
+.dropdown div.bluecolordrop div.dropdown-3 p
+{
+    display: flex;
+    gap: 750px;
+}
+.dropdown div.bluecolordrop div.dropdown-4 button
+{
+    font-size: 90px;
+    padding: 10px 160px 10px 160px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(65, 187, 187);
+    border-radius: 90px;    
+    margin-left: 100PX;
+}
+.blue
+{
+    height: 450px;
+    background-color: rgb(65, 187, 187);
+    width: 90%;
+    margin-left: 240px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    color: white;
+    text-decoration: none;
+
+    
+}
+.part_1 
+{
+    font-size: 110px;
+    /* background-color: brown; */
+    float: left;
+    line-height: 450px;
+    margin: 0px 160px;
+    
+}
+.part_1:hover
+{
+    height: 300px;
+    width: 400px;
+    /* background-color: chartreuse; */
+    margin-top: 300px;
+
+}
+.part_2 
+{
+    float: left;
+    
+    
+    margin: 150px 170px;
+    font-size: 80px;
+    /* background-color: chartreuse; */
+
+}
+
+.part_2 a
+{
+    /* background-color: brown; */
+        color: white;
+        margin-left: 50px;
+        
+
+}
+.part_2 hr
+{
+    width: 1000px;
+    padding-top: -200px;
+    margin-top: 40px;
+}
+.part_2 i 
+{
+    margin-left: 440px;
+}
+.part_3 
+{
+    float: left;
+    
+    
+    margin: 150px 170px;
+    font-size: 80px;
+    /* background-color: chartreuse; */
+
+}
+
+.part_3 a
+{
+    /* background-color: brown; */
+        color: white;
+        margin-left: 50px;
+        
+
+}
+.part_3 hr
+{
+    width: 1000px;
+    padding-top: -200px;
+    margin-top: 40px;
+
+}
+.part_3 i 
+{
+    margin-left: 440px;
+}
+
+.part_4 
+{
+    float: left;
+    /* background-color: brown; */
+   margin-left: 80px;
+    font-size: 110px;
+    line-height: 430px;
+    
+    
+}
+.part_4 a
+{
+    border: 3px solid white;
+    padding: 40px 60px 40px 60px ;
+    border-radius: 100px;
+    color: white;
+    font-size: 80px;
+}
+.part_4 a:hover
+{
+    background-color: white;
+    color: rgb(60, 160, 160);
+}
+.massage
+{
+    background-color:rgba(35,34,35,255);
+    height: 800px;
+    font-size: 70px;
+    color: whitesmoke;
+}
+.massage h1
+{
+    text-align: center;
+    padding-top: 240px;
+    color: rgba(42,42,42,255);
+}
+.massage p
+{
+    width: 2100px;
+    text-align: center;
+    margin-left: 1450px;
+    margin-top: 40px;
+    color: rgba(133,133,128,255);
+
+}
+.photo_prey1
+{
+    background-color:rgba(35,34,35,255);
+    height: 3700px;
+    width: 100%;
+    
+}
+.prey1_1
+{
+    margin-top: 100px;
+    height: 1600px;
+    width: 2300px;
+    margin-left: 160px;
+    background-color: white;
+    float: left;
+    border-radius: 90px;
+    border-top-left-radius: 100px;
+}
+.prey2_1{
+    margin-top: 100px;
+    height: 1600px;
+    width: 2300px;
+    margin-left: 160px;
+    background-color: white;
+    float: left;
+    border-radius: 90px;
+    border-top-left-radius: 100px;
+}
+/* add */
+
+.prey2_1 div:nth-child(1).pic2_1
+{
+   background-image: url('https://templatemo.com/templates/templatemo_580_woox_travel/assets/images/deals-02.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 1450px;
+    width: 900px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+   
+    float: left;
+
+}
+.msg2_1
+{
+    height: 500px;
+    width: 1400px;
+    float: left;
+}
+.msg2_1 p
+{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(60, 160, 160);
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.msg2_1 h2
+{
+    font-size: 110px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.msg2_2
+{
+    height: 400px;
+    /* background-color: brown; */
+    
+    
+}
+.msg2_2 div:nth-child(1) i
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 150px;
+color: rgb(171, 169, 169);
+}
+.msg2_2 div:nth-child(1) p
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 50px;
+color: rgb(171, 169, 169);
+
+}
+.msg2_2 div:nth-child(2) i
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 400px;
+color: rgb(171, 169, 169);
+}
+.msg2_2 div:nth-child(2) p
+{
+    font-size: 80px;
+    float: left;
+    margin-top: 140px;
+color: rgb(171, 169, 169);
+    margin-left: 50px;
+
+}
+.msg2 hr
+{
+    width: 1200px;
+    margin-left: 1000px;
+}
+.msg2_3
+{
+    font-size: 70px;
+    width: 1000px;
+    margin-left: 1050px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(171, 169, 169);
+}
+.msg2_4
+{
+    height: 400px;
+    width: 1300px;
+   
+    margin-top: 180px;
+    margin-left: 1050px;
+}
+.msg2_4 div.msg2_4_4 a
+{
+    font-size: 100px;
+    border: 3px solid rgb(60, 160, 160);
+    padding: 30px 40px 30px 40px;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(60, 160, 160);
+}
+.msg2_4 div.msg2_4_4 a:hover
+{
+    background-color: white;
+    color: rgb(65, 187, 187);
+    border: none;
+}
+
+/*add*/
+.prey3_1
+{
+    margin-top: 100px;
+    height: 1600px;
+    width: 2300px;
+    margin-left: 160px;
+    background-color: white;
+    float: left;
+    border-radius: 90px;
+    border-top-left-radius: 100px;
+
+}
+.prey3_1 div:nth-child(1).pic3_1
+{
+   background-image: url('https://templatemo.com/templates/templatemo_580_woox_travel/assets/images/deals-03.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 1450px;
+    width: 900px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+   
+    float: left;
+
+}
+.msg3_1
+{
+    height: 500px;
+    width: 1400px;
+    float: left;
+}
+.msg3_1 p
+{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(60, 160, 160);
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.msg3_1 h2
+{
+    font-size: 110px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.msg3_2
+{
+    height: 400px;
+    /* background-color: brown; */
+    
+    
+}
+.msg3_2 div:nth-child(1) i
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 150px;
+color: rgb(171, 169, 169);
+}
+.msg3_2 div:nth-child(1) p
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 50px;
+color: rgb(171, 169, 169);
+
+}
+.msg3_2 div:nth-child(2) i
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 400px;
+color: rgb(171, 169, 169);
+}
+.msg3_2 div:nth-child(2) p
+{
+    font-size: 80px;
+    float: left;
+    margin-top: 140px;
+color: rgb(171, 169, 169);
+    margin-left: 50px;
+
+}
+.msg3 hr
+{
+    width: 1200px;
+    margin-left: 1000px;
+}
+.msg3_3
+{
+    font-size: 70px;
+    width: 1000px;
+    margin-left: 1050px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(171, 169, 169);
+}
+.msg3_4
+{
+    height: 400px;
+    width: 1300px;
+   
+    margin-top: 180px;
+    margin-left: 1050px;
+}
+.msg3_4 div.msg3_4_4 a
+{
+    font-size: 100px;
+    border: 3px solid rgb(60, 160, 160);
+    padding: 30px 40px 30px 40px;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(60, 160, 160);
+}
+.msg3_4 div.msg3_4_4 a:hover
+{
+    background-color: white;
+    color: rgb(65, 187, 187);
+    border: none;
+}
+.prey4_1
+{
+  margin-top: 100px;
+    height: 1700px;
+    width: 2300px;
+    margin-left: 160px;
+    background-color: white;
+    float: left;
+    border-radius: 90px;
+    border-top-left-radius: 100px;
+
+}
+.prey4_1 div:nth-child(1).pic4_1
+{
+   background-image: url('https://templatemo.com/templates/templatemo_580_woox_travel/assets/images/deals-04.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 1450px;
+    width: 900px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+   
+    float: left;
+
+}
+.msg4_1
+{
+    height: 500px;
+    width: 1400px;
+    float: left;
+}
+.msg4_1 p
+{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(60, 160, 160);
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.msg4_1 h2
+{
+    font-size: 110px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.msg4_2
+{
+    height: 400px;
+    /* background-color: brown; */
+    
+    
+}
+.msg4_2 div:nth-child(1) i
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 150px;
+color: rgb(171, 169, 169);
+}
+.msg4_2 div:nth-child(1) p
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 50px;
+color: rgb(171, 169, 169);
+
+}
+.msg4_2 div:nth-child(2) i
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 400px;
+color: rgb(171, 169, 169);
+}
+.msg4_2 div:nth-child(2) p
+{
+    font-size: 80px;
+    float: left;
+    margin-top: 140px;
+color: rgb(171, 169, 169);
+    margin-left: 50px;
+
+}
+.msg4 hr
+{
+    width: 1200px;
+    margin-left: 1000px;
+}
+.msg4_3
+{
+    font-size: 70px;
+    width: 1000px;
+    margin-left: 1050px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(171, 169, 169);
+}
+.msg4_4
+{
+    height: 400px;
+    width: 1300px;
+   
+    margin-top: 180px;
+    margin-left: 1050px;
+}
+.msg4_4 div.msg4_4_4 a
+{
+    font-size: 100px;
+    border: 3px solid rgb(60, 160, 160);
+    padding: 30px 40px 30px 40px;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(60, 160, 160);
+}
+.msg4_4 div.msg4_4_4 a:hover
+{
+    background-color: white;
+    color: rgb(65, 187, 187);
+    border: none;
+}
+.prey1_1 div:nth-child(1).pic1_1
+{
+   background-image: url('https://templatemo.com/templates/templatemo_580_woox_travel/assets/images/deals-01.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 1450px;
+    width: 900px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+   
+    float: left;
+
+}
+.msg1_1
+{
+    height: 500px;
+    width: 1400px;
+    float: left;
+}
+.msg1_1 p
+{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(60, 160, 160);
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.msg1_1 h2
+{
+    font-size: 110px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.msg1_2
+{
+    height: 400px;
+    /* background-color: brown; */
+    
+    
+}
+.msg1_2 div:nth-child(1) i
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 150px;
+color: rgb(171, 169, 169);
+}
+.msg1_2 div:nth-child(1) p
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 50px;
+color: rgb(171, 169, 169);
+
+}
+.msg1_2 div:nth-child(2) i
+{
+    font-size: 80px;
+    float: left;
+        line-height: 400px;
+        margin-left: 400px;
+color: rgb(171, 169, 169);
+}
+.msg1_2 div:nth-child(2) p
+{
+    font-size: 80px;
+    float: left;
+    margin-top: 140px;
+color: rgb(171, 169, 169);
+    margin-left: 50px;
+
+}
+.msg1 hr
+{
+    width: 1200px;
+    margin-left: 1000px;
+}
+.msg1_3
+{
+    font-size: 70px;
+    width: 1000px;
+    margin-left: 1050px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(171, 169, 169);
+}
+.msg1_4
+{
+    height: 400px;
+    width: 1300px;
+   
+    margin-top: 180px;
+    margin-left: 1050px;
+}
+.msg1_4 div.msg1_4_4 a
+{
+    font-size: 100px;
+    border: 3px solid rgb(60, 160, 160);
+    padding: 30px 40px 30px 40px;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(60, 160, 160);
+}
+.msg1_4 div.msg1_4_4 a:hover
+{
+    background-color: white;
+    color: rgb(65, 187, 187);
+    border: none;
+}
+.uptofooter
+{
+    height: 700px;
+    background-color: rgba(35,34,35,255);
+    font-size: 100px;
+    
+}
+.uptofooter1
+{
+    height: 400px;
+    width: 2300px;
+    margin-left:1800px ;
+    padding-top: 200px;
+   
+    
+}
+.right
+{
+    float: left;
+    margin: 0px 40px;
+    
+}
+.right a
+{
+    text-decoration: none;
+    color:rgb(60, 160, 160);
+    padding: 40px 60px 40px 60px;
+    border-radius: 100%;
+    
+}
+.right a:hover
+{
+    
+    background-color:rgb(60, 160, 160);
+    color: white;
+    transition: 500ms;
+    
+    
+}
+.one
+{
+    float: left;
+        margin: 0px 40px;
+    
+
+}
+.one a
+{
+    text-decoration: none;
+    color:rgb(60, 160, 160);
+        border: 1px solid rgb(60, 160, 160);
+    padding: 40px 70px 40px 70px;
+    border-radius: 100%;
+}
+.one a:hover
+{
+    
+    background-color:rgb(60, 160, 160);
+    color: white;
+        transition: 500ms;
+
+    
+}
+.two
+{
+    float: left;
+        margin: 0px 40px;
+
+}
+.two a
+{
+    text-decoration: none;
+    color:rgb(60, 160, 160);
+     border: 1px solid rgb(60, 160, 160);
+    padding: 40px 70px 40px 70px;
+    border-radius: 100%;
+}
+.two a:hover
+{
+    
+    background-color:rgb(60, 160, 160);
+    color: white;
+        transition: 500ms;
+
+    
+}
+.three
+{
+    float: left;
+        margin: 0px 40px;
+
+}
+.three a
+{
+    text-decoration: none;
+    color:rgb(60, 160, 160);
+     border: 1px solid rgb(60, 160, 160);
+    padding: 40px 70px 40px 70px;
+    border-radius: 100%;
+}
+.three a:hover
+{
+    
+    background-color:rgb(60, 160, 160);
+    color: white;
+        transition: 500ms;
+
+    
+}
+.left
+{
+    float: left;
+        margin: 0px 40px;
+        
+        
+
+}
+.left a
+{
+    text-decoration: none;
+    color:rgb(60, 160, 160);
+     
+    padding: 40px 60px 40px 60px;
+    border-radius: 100%;
+}
+.left a:hover
+{
+    
+    background-color:rgb(60, 160, 160);
+    color: white;
+    border: 1px solid rgb(60, 160, 160);
+        transition: 500ms;
+
+    
+}
+/* 
+
+reservation page start */
+
+.background_image
+{
+    height: 2300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://templatemo.com/templates/templatemo_580_woox_travel/assets/images/heading-bg-02.jpg');
+}
+.m1
+{
+    font-size: 150px;
+    color: white;
+    padding-top: 460px;
+    margin-left: 1800px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.reservation_hr
+{
+    width: 400px;
+    margin-left: 2200px;
+    margin-top: 100px;
+}
+.m2
+{
+    font-size: 140px;
+    color: white;
+    padding-left: 1000px;
+    padding-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.m3
+{
+    font-size: 70px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 3000px;
+  margin-top: 50px;
+    text-align: center;
+    margin-left: 1000px;
+    margin-bottom: 200px;
+}
+.more_button a
+{
+    font-size: 90px;
+    color:rgb(60, 160, 160);
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: white;
+    padding: 30px 40px 30px 40px;
+    border-radius: 90px;
+    margin-left:2100px ;
+   margin-top: 2000px;
+
+}
+.more_button a:hover
+{
+    background-color: rgb(60, 160, 160);
+    color: white;
+    border: 2px solid rgb(65, 187, 187);
+    transition: 300ms;
+    margin-top: 400px;
+}
+.black_background
+{
+    height: 900px;
+    background-color:rgba(35,34,35,255);
+    width: 100%;
+    margin-top: 670px;
+}
+.call
+{
+    height: 760px;
+    width: 1300px;
+    background-color: white;
+    position:absolute;
+    margin-top: 300px;
+    border-radius: 80px;
+    float: left;
+    margin-left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.call1
+{
+    margin: 70px 520px;
+}
+.call1 i
+{
+    font-size: 100px;
+    color: rgb(60, 160, 160);
+    border: 2px solid rgb(237, 235, 235);
+    background-color: rgb(235, 235, 235);
+    border-radius: 100%;
+    padding: 70px 70px 70px 70px;
+}
+.call2
+{
+    font-size: 80px;
+    padding-left: 220px;
+    padding-top: -150px;
+}
+.call3
+{
+    font-size: 70px;
+    padding-left: 390px;
+    padding-top: 80px;
+    text-decoration: none;
+}
+.call3 a
+{
+    color: rgb(65, 187, 187);
+
+}
+.email
+{
+    height: 760px;
+    width: 1300px;
+    background-color: white;
+    position:absolute;
+    margin-top: 300px;
+    margin-left: 1830px;
+    border-radius: 80px;
+        float: left;
+        font-family: 'Times New Roman', Times, serif;
+
+}
+.email1
+{
+    margin: 70px 520px;
+}
+.email i
+{
+    font-size: 100px;
+    color: rgb(60, 160, 160);
+    border: 2px solid rgb(237, 235, 235);
+    background-color: rgb(235, 235, 235);
+    border-radius: 100%;
+    padding: 70px 70px 70px 70px;
+}
+.email2
+{
+    font-size: 80px;
+    padding-left: 220px;
+    padding-top: -150px;
+}
+.email3
+{
+    font-size: 70px;
+    padding-left: 360px;
+    padding-top: 80px;
+    text-decoration: none;
+}
+.email a
+{
+    color: rgb(65, 187, 187);
+
+}
+.office
+{
+    height: 760px;
+    width: 1300px;
+    background-color: white;
+    position:absolute;
+    margin-top: 300px;
+    margin-left: 3260px;
+    border-radius: 80px;
+        float: left;
+        font-family: 'Times New Roman', Times, serif;
+
+}
+.office1
+{
+    margin: 70px 520px;
+}
+.office i
+{
+    font-size: 100px;
+    color: rgb(60, 160, 160);
+    border: 2px solid rgb(237, 235, 235);
+    background-color: rgb(235, 235, 235);
+    border-radius: 100%;
+    padding: 70px 70px 70px 70px;
+}
+.office2
+{
+    font-size: 80px;
+    padding-left: 220px;
+    padding-top: -150px;
+}
+.office3
+{
+    font-size: 70px;
+    padding-left: 110px;
+    padding-top: 80px;
+    text-decoration: none;
+}
+.office a
+{
+    color: rgb(65, 187, 187);
+
+}
+.footer2_reservation
+{
+    height: 400px;
+    background-color: rgb(60, 160, 160);
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    padding-top: 120px;
+    margin-top: 460px;
+}
+.footer2_reservation a
+{
+    color: white;
+}
+.map
+{
+    background-color: rgba(35,34,35,255);
+    height: 1750px;
+    width: 100%;
+}
+.map iframe
+{
+    height: 1750px;
+   
+    width: 4400px;
+    margin-left: 300px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+.below_black
+{
+    background-color: rgba(35,34,35,255);
+    height: 2900px;
+}
+.form_reservation
+{
+    height: 600px;
+        margin-left: 300px;
+
+    width: 4400px;
+    background-color:white;
+   
+}
+.form_1
+{
+    font-size: 70px;
+    color: black;
+    padding-top: 200px;
+   margin-left: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+.form_2
+{
+    font-size: 70px;
+    color: rgb(65, 187, 187);
+    padding-top: 200px;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+        float: left;
+   
+
+}
+.form_3
+{
+    font-size: 70px;
+    color: black;
+    padding-top: 200px;
+       margin-left: 40px;
+
+    font-family: 'Times New Roman', Times, serif;
+        float: left;
+
+}
+.form_4
+{
+    font-size: 70px;
+        color: rgb(65, 187, 187);
+
+    padding-top: 200px;
+        margin-left: 40px;
+
+    font-family: 'Times New Roman', Times, serif;
+        float: left;
+
+
+}
+.form_rightside
+{
+    height: 900px;
+    width: 2200px;
+    padding-left: 200px;
+    background-color:white;
+   
+        float: left;
+        font-size: 78px;
+    color: rgb(189, 186, 186);
+}
+.phone_1 input
+{
+    width: 1600px;
+    height: 170px;
+    border: 0.3px solid rgb(189, 186, 186);
+    border-radius: 80px;
+    font-size: 70px;
+    padding: 40px;
+    color: rgb(189, 186, 186);
+}
+
+.date_1
+{
+    padding-top: 100px;
+}
+
+.date_1 input
+{
+    width: 1600px;
+    height: 170px;
+    border: 0.3px solid rgb(189, 186, 186);
+    border-radius: 80px;
+    font-size: 70px;
+    padding: 40px;
+    color: rgb(189, 186, 186);
+    padding: 10px 40px;
+}
+
+.form_leftside
+{
+    height: 900px;
+    width: 2200px;
+    padding-left: 200px;
+    background-color:white;
+    margin-left: 300px;
+        float: left;
+        font-size: 78px;
+    color: rgb(189, 186, 186);
+}
+.name input
+{
+    width: 1600px;
+    height: 170px;
+    border: 0.3px solid rgb(189, 186, 186);
+    border-radius: 80px;
+    font-size: 70px;
+    padding: 40px;
+    color: rgb(189, 186, 186);
+}
+.name
+{
+    padding-left: 250px;
+}
+.guest_no
+{
+    padding-top: 100px;
+}
+.guest_no
+{
+    padding-left: 250px;
+}
+.guest_no select
+{
+    width: 1600px;
+    height: 170px;
+    border: 0.3px solid rgb(189, 186, 186);
+    border-radius: 80px;
+    font-size: 70px;
+    padding: 40px;
+    color: black;
+    padding: 10px 40px;
+}
+.guest_no select:hover
+{
+    cursor: pointer;
+    border: 20px solid rgba(128, 128, 225, 0.276);
+    transition: 500ms;
+}
+.form_last_part
+{
+    height: 700px;
+    width: 4400px;
+    margin-left: 300px;
+   background-color: white;
+    margin-top: 900px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+.form_last_part{
+    font-size: 78px;
+   color: rgb(189, 186, 186);
+    padding-left: 440px;
+}
+.form_last_part select
+{
+    height: 170px;
+    width: 3600px;
+    border: 0.3px solid rgb(189, 186, 186);
+    border-radius: 80px;
+    padding: 10px 50px;
+    font-size: 78px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form_last_part select:hover
+{
+    cursor: pointer;
+    border: 20px solid rgba(128, 128, 225, 0.276);
+    transition: 500ms;   
+}
+.form_button
+{
+    margin-top: 100px;
+}
+.form_button a
+{
+    font-size: 68px;
+    border: 0.3px solid rgb(189, 186, 186);
+    padding: 40px 1403px 40px 1403px;
+    border-radius: 90px;
+    background-color: rgb(65, 187, 187);
+    text-decoration: none;
+    color: white;
+
+
+}
+.form_button a:hover
+{
+    background-color: rgb(89, 207, 207);
+    transition: 500ms;
+}
+.part_2 select
+{
+    height: 200px;
+    width: 1000px;
+    font-size: 90px;
+    padding: 0px 50px;
+    border-top: none;
+    background-color: rgb(65, 187, 187);
+    border-left: none;
+    border-right: none;
+    border-bottom: 6px solid rgb(225, 225, 225);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.part_2
+{
+    margin-top: 120px;
+    
+}
+.part_2 select:hover
+{
+    cursor: pointer;
+}
+.part_3 select
+{
+    height: 200px;
+    width: 1000px;
+    font-size: 90px;
+    padding: 0px 50px;
+    border-top: none;
+    background-color: rgb(65, 187, 187);
+    border-left: none;
+    border-right: none;
+    border-bottom: 6px solid rgb(225, 225, 225);
+    color: white;
+        font-family: 'Times New Roman', Times, serif;
+
+}
+.part_3
+{
+    margin-top: 120px;
+}
+.part_3 select:hover
+{
+        cursor: pointer;
+
+}
